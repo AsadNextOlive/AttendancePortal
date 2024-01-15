@@ -1,0 +1,100 @@
+<app-admin-dashboard></app-admin-dashboard>
+<main class="main-wrap">
+    <div class="container pt-4">
+        <div class="mb-3">
+            <a routerLink="">Admin</a> > <a href="#">Employee</a>
+        </div>
+        <div class="mb-4">
+            <h3>Employee Attendance</h3>
+        </div>
+        <div class="border p-1 rounded mb-4">
+            <div class=" d-flex justify-content-between mb-2">
+                <p>Employee Name: <span>John Wick</span></p>
+                <div class="btn-group">
+                    <button class="btn btn-secondary btn-sm btn-color" type="button">
+                        Select Month
+                    </button>
+                    <button type="button"
+                        class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split tog-colour"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <span class="visually-hidden">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Home</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class=" d-flex justify-content-between mb-3">
+                <p>Employee ID: <span>001</span></p>
+                <div class="btn-group">
+                    <button class="btn btn-secondary btn-sm btn-color" type="button">
+                        Select Year
+                    </button>
+                    <button type="button"
+                        class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split tog-colour"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <span class="visually-hidden">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Home</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class=" d-flex justify-content-between">
+                <p>Date: <span>19/12/2023</span></p>
+                <button class="btn btn-sm btn-outline-success">Search</button>
+            </div>
+        </div>
+        <div class="d-flex">
+            <div class="spnner">Present: <span class="spn colour-p" id="present"></span></div>
+            <div class="spnner">Absent: <span class="spn colour-a" id="absent"></span></div>
+            <div class="spnner">Leave: <span class="spn colour-l" id="leave"></span></div>
+        </div>
+        <!-- table -->
+        <div class="of">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">SN</th>
+                        <th scope="col">Date</th>
+                        <th scope="col">Attendance</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>01/12/2023</td>
+                        <td><span class="spn colour-l" id="leave"></span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>02/12/2023</td>
+                        <td><span class="spn colour-p" id="present"></span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>03/12/2023</td>
+                        <td><span class="spn colour-a" id="absent"></span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>04/12/2023</td>
+                        <td><span class="spn colour-p" id="present"></span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">5</th>
+                        <td>05/12/2023</td>
+                        <td><span class="spn colour-p" id="present"></span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">6</th>
+                        <td>06/12/2023</td>
+                        <td><span class="spn colour-p" id="present"></span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <app-admin-footer></app-admin-footer>
+    </div>
+</main>

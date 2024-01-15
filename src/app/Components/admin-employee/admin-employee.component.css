@@ -1,0 +1,18 @@
+
+.main-wrap{
+    margin-top: 58px;
+    margin-left: 235px;
+}
+
+@media Only Screen and (max-width: 550px){
+    
+    .of-auto{
+        overflow-x: auto;
+    }
+}
+
+@media Only Screen and (max-width: 992px){
+    .main-wrap{
+        margin-left: 0px;
+    }
+}

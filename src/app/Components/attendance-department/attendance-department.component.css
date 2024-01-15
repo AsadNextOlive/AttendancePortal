@@ -1,0 +1,22 @@
+.main-wrap{
+    margin-top: 58px;
+    margin-left: 235px;
+}
+
+.bx-color{
+    background-image: linear-gradient(to bottom right, #467e80, #5F9EA0);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.bx-color:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.bx-sm-color{
+    background-color: #5F9EA0;
+}
+
+@media Only Screen and (max-width: 992px){
+    .main-wrap{
+        margin-left: 0px;
+    }
+}

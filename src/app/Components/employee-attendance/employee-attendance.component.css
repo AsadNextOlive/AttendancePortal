@@ -1,0 +1,49 @@
+.main-wrap{
+    margin-top: 58px;
+    margin-left: 235px;
+}
+
+.btn-color{
+    background-color: #375c5e;
+    border: 0;
+}
+
+.tog-colour{
+    background-color: #2e4c4e;
+    border: 0;
+}
+
+.spn{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+}
+
+.colour-p{
+    background-color: green;
+}
+
+.colour-a{
+    background-color: red;
+}
+
+.colour-l{
+    background-color: blue;
+}
+
+
+.spnner{
+    margin-right: 16px;
+}
+
+.of{
+    overflow-x: auto;
+}
+
+
+
+@media Only Screen and (max-width: 992px){
+    .main-wrap{
+        margin-left: 0px;
+    }
+}

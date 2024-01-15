@@ -1,0 +1,28 @@
+.main-wrap{
+    margin-top: 58px;
+    margin-left: 235px;
+}
+
+.wrapper{
+    width: 40%;
+}
+
+.btn-color{
+    background-color: #375c5e;
+    border: 0;
+}
+
+@media Only Screen and (max-width: 550px){
+    .wrapper{
+        width: 100%;
+    }
+    .of-auto{
+        overflow-x: auto;
+    }
+}
+
+@media Only Screen and (max-width: 992px){
+    .main-wrap{
+        margin-left: 0px;
+    }
+}

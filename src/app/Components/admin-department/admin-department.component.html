@@ -1,0 +1,48 @@
+<app-admin-dashboard></app-admin-dashboard>
+<main class="main-wrap">
+  <div class="container pt-4">
+    <div class="mb-3">
+      <a routerLink="">Admin</a> > <a href="#">Department</a>
+    </div>
+    <div class="mb-4">
+      <h3>Department</h3>
+    </div>
+
+    <div class="wrapper d-flex flex-column mb-5">
+      <form>
+        <div class="mb-3">
+          <label for="Department" class="form-label">Department</label>
+          <input type="text" class="form-control" id="Department">
+        </div>
+        <button type="submit" class="btn btn-primary btn-color">Add Department</button>
+      </form>
+    </div>
+    <div class="container text-center">
+      <h4 class="mb-3">Department List</h4>
+      <div class="of-auto">
+        <table class="table table-success table-striped ">
+          <thead>
+            <tr>
+              <th scope="col">SN</th>
+              <th scope="col">Department ID</th>
+              <th scope="col">Department Name</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>001</td>
+              <td>Frontend Department</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>002</td>
+              <td>SEO Department</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <app-admin-footer></app-admin-footer>
+  </div>
+</main>
